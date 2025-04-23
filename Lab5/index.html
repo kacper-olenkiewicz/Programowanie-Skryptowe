@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laboratorium5 - Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button class="btn" onclick="pokazDane()">Kliknij by ujrzec dane</button>
+  <button class="btn" onclick="quizStart()">Kliknij by rozpocząć quiz</button>
+
+  <div class="quizz" style="display: none;">
+    <p id="pytanie"></p>
+    <input type="text" id="odp" placeholder="Wpisz odpowiedź">
+    <button class="btn" onclick="quizKontynuuj()">Wyślij odpowiedź</button>
+  </div>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
