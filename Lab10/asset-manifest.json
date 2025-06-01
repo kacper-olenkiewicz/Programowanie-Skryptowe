@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Programowanie-Skryptowe/Lab10/static/css/main.a166765f.css",
+    "main.js": "/Programowanie-Skryptowe/Lab10/static/js/main.dab8f355.js",
+    "index.html": "/Programowanie-Skryptowe/Lab10/index.html",
+    "main.a166765f.css.map": "/Programowanie-Skryptowe/Lab10/static/css/main.a166765f.css.map",
+    "main.dab8f355.js.map": "/Programowanie-Skryptowe/Lab10/static/js/main.dab8f355.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a166765f.css",
+    "static/js/main.dab8f355.js"
+  ]
+}
