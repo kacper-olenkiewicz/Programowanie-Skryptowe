@@ -12,7 +12,7 @@ Strona dostępna pod adresem:
 🔗 [GitHub Pages](https://kacper-olenkiewicz.github.io/Programowanie-Skryptowe/)
 
 ## Autor
-**Kacper Oleńkiewicz**  
+**Kacper Olenkiewicz**  
 Numer indeksu: **20470**
 
 ## Zawartość
