@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Programowanie-Skryptowe/Projekt/static/css/main.d5d92583.css",
+    "main.js": "/Programowanie-Skryptowe/Projekt/static/js/main.98895f2b.js",
+    "index.html": "/Programowanie-Skryptowe/Projekt/index.html",
+    "main.d5d92583.css.map": "/Programowanie-Skryptowe/Projekt/static/css/main.d5d92583.css.map",
+    "main.98895f2b.js.map": "/Programowanie-Skryptowe/Projekt/static/js/main.98895f2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5d92583.css",
+    "static/js/main.98895f2b.js"
+  ]
+}
