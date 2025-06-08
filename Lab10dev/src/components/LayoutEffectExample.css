@@ -1,0 +1,18 @@
+.layout-effect {
+  background: #f9f0ff;
+  border: 2px solid #722ed1;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.layout-effect .box {
+  padding: 50px;
+  background: #d3adf7;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.layout-effect p {
+  color: #333;
+  font-weight: bold;
+}

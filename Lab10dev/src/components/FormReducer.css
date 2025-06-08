@@ -1,0 +1,21 @@
+.form-reducer {
+  background: #fff7e6;
+  border: 2px solid #faad14;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.form-reducer input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #fa8c16;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}
+.form-reducer p {
+  margin-top: 10px;
+  color: #333;
+}
