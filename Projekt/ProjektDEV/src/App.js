@@ -1,19 +1,30 @@
-import { CVProvider } from './context/CVContext';
-import FormComponent from './components/FormComponent';
-import PreviewComponent from './components/PreviewComponent';
-import ThemeToggle from './components/ThemeToggle';
+import React, { useState } from 'react';
+import Form from './Form';
+import Preview from './Preview';
+import DownloadPDF from './DownloadPDF';
 
 function App() {
+  const [cvData, setCvData] = useState({
+    name: '',
+    email: '',
+    experience: [{ position: '', company: '' }],
+    photo: '',
+    languages: [{ name: '', level: '' }],
+  });
+
   return (
-    <CVProvider>
-      <div className="app-container">
-        <ThemeToggle />
-        <div className="editor-preview">
-          <FormComponent />
-          <PreviewComponent />
+    <div className="cv-app">
+      <h1>Generator CV</h1>
+      <div className="cv-container">
+        <div className="form-container">
+          <Form cvData={cvData} setCvData={setCvData} />
+        </div>
+        <div className="preview-container">
+          <Preview cvData={cvData} />
+          <DownloadPDF cvData={cvData} />
         </div>
       </div>
-    </CVProvider>
+    </div>
   );
 }
 
