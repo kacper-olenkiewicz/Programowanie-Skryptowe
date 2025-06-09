@@ -56,7 +56,7 @@ npm start
 
 ---
 
-## Screenshot
+## PDF
 
 ![Podglad PDF](img/cv.png)
 
